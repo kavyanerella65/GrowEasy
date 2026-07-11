@@ -1,0 +1,99 @@
+# =========================================================
+# GrowEasy AI CSV Importer
+# =========================================================
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+frontend/.env.local
+backend/.env
+
+# Build Output
+.next/
+out/
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime Files
+*.pid
+*.seed
+*.pid.lock
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.npm/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Temporary Files
+tmp/
+temp/
+
+# Test Coverage
+coverage/
+.nyc_output/
+
+# Uploads / Generated Files
+uploads/
+exports/
+processed/
+generated/
+*.zip
+
+# Docker
+docker-data/
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Local Certificates
+*.pem
+*.key
+*.crt
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+
+# Swap Files
+*.swp
+*.swo
+
+# Misc
+*.bak
+*.tmp
