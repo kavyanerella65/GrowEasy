@@ -12,11 +12,34 @@ An intelligent CSV importer that accepts leads from **any CSV format** — Faceb
 
 | Service | URL |
 |---|---|
-| Frontend | https://groweasy-csv-importer.vercel.app |
-| Backend API | https://groweasy-api.railway.app |
-| Health Check | https://groweasy-api.railway.app/api/health |
+| Frontend | https://grow-easy-three.vercel.app |
+| Backend API | https://groweasy-u1f2.onrender.com |
+| Health Check | https://groweasy-u1f2.onrender.com/api/health |
+| GitHub Repository | https://github.com/kavyanerella65/GrowEasy |
 
 ---
+
+
+## 📸 Screenshots
+
+### Home Page
+
+![Home](./screenshots/home.png)
+
+### CSV Preview
+
+![CSV Preview](./screenshots/preview.png)
+
+### Import Progress
+
+![Import Progress](./screenshots/progress.png)
+
+### Results Dashboard
+
+![Results](./screenshots/results.png)
+
+---
+
 
 ## ✨ Features
 
@@ -113,7 +136,7 @@ groweasy-csv-importer/
 ### Prerequisites
 - Node.js 20+
 - npm 9+
-- Gemini API key — get one at [console.gemini.com](https://console.gemini.com)
+- Google Gemini API key — Generate one from: https://aistudio.google.com/app/apikey
 
 ### 1. Clone & Install
 
@@ -127,19 +150,17 @@ cd groweasy-csv-importer
 ```bash
 cd backend
 cp .env.example .env
-# Edit .env and add your GEMINI_API_KEY
 npm install
-npm run dev       # Starts on http://localhost:5000
+npm run dev      
 ```
 
 ### 3. Configure Frontend
 
 ```bash
 cd ../frontend
-# Create .env.local
 echo "NEXT_PUBLIC_API_URL=http://localhost:5000" > .env.local
 npm install
-npm run dev       # Starts on http://localhost:3000
+npm run dev      
 ```
 
 ### 4. Open in Browser
@@ -148,7 +169,7 @@ Navigate to **http://localhost:3000** and upload a CSV file.
 
 ---
 
-## 🐳 Docker Setup (Recommended)
+## 🐳 Docker Setup (Optional)
 
 ```bash
 # Clone the repo
@@ -161,8 +182,6 @@ echo "GEMINI_API_KEY=your_key_here" > .env
 # Build and start both services
 docker-compose up --build
 
-# Frontend: http://localhost:3000
-# Backend:  http://localhost:5000
 ```
 
 ---
@@ -185,9 +204,9 @@ Tests cover:
 
 ## 🌐 Deployment
 
-### Backend → Railway
+### Backend → Render
 
-1. Connect your GitHub repo to [Railway](https://railway.app)
+1. Connect your GitHub repo to [Render](https://render.app)
 2. Select the `backend/` folder as root
 3. Add environment variable: `GEMINI_API_KEY=your_key`
 4. Railway auto-detects Node.js and deploys
@@ -196,7 +215,7 @@ Tests cover:
 
 1. Connect your GitHub repo to [Vercel](https://vercel.com)
 2. Set **Root Directory** to `frontend/`
-3. Add environment variable: `NEXT_PUBLIC_API_URL=https://your-backend.railway.app`
+3. Add environment variable: `NEXT_PUBLIC_API_URL=https://groweasy-u1f2.onrender.com`
 4. Deploy
 
 ---
@@ -282,10 +301,25 @@ data: {"type":"complete","totalImported":148,"totalSkipped":2,"imported":[...],"
 
 ---
 
+
 ## 📬 Submission
 
-- **GitHub:** https://github.com/kavyanerella65/groweasy-csv-importer
-- **Live App:** https://groweasy-csv-importer.vercel.app
-- **Applicant:** Kavya Nerella — kavyanerella65@gmail.com
-- **Position:** Software Developer Intern
-- **Submitted to:** varun@groweasy.ai
+**Assignment:** GrowEasy – AI-Powered CSV Importer
+
+**Candidate:** Kavya Nerella
+
+**Role Applied:** Software Developer Intern
+
+**Email:** kavyanerella65@gmail.com
+
+**GitHub Repository**
+https://github.com/kavyanerella65/GrowEasy
+
+**Frontend**
+https://grow-easy-three.vercel.app
+
+**Backend API**
+https://groweasy-u1f2.onrender.com
+
+**Health Check**
+https://groweasy-u1f2.onrender.com/api/health
